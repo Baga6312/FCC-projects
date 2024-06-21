@@ -1,0 +1,342 @@
+
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("https://db.onlinewebfonts.com/t/011bf6877bf6908c6d43a19ccbb78154.eot");
+    src: url("https://db.onlinewebfonts.com/t/011bf6877bf6908c6d43a19ccbb78154.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/011bf6877bf6908c6d43a19ccbb78154.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/011bf6877bf6908c6d43a19ccbb78154.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/011bf6877bf6908c6d43a19ccbb78154.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/011bf6877bf6908c6d43a19ccbb78154.svg#Roboto Mono")format("svg");
+}
+
+@media (400px <= width <= 600px) { 
+    #background {
+        margin-top: 10px;
+        top: 30px;
+    }
+}
+
+*{    
+    margin: 0 auto;
+    padding :0 ; 
+    background-size: cover ;
+    position:relative;
+ 
+    font-family: "Roboto Mono";
+}
+
+@keyframes fadeInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes fadeInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+@keyframes fadeInFrombottom {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+#fcc-img{
+
+    margin-top : 30px; 
+    width: 350px;
+    height: 50px;
+    animation: fadeInFromLeft 0.6s ease-out;
+
+}
+
+
+#title { 
+    animation: fadeInFromLeft 0.8s ease-out;
+    position:relative;
+    color: white;
+    width: 50%;
+   
+
+
+
+    font-size:30px;
+    font-family: "Roboto Mono";
+}
+
+@media (200px <= width <= 600px) {
+    #title{
+        animation: fadeInFromTop 0.6s ease-out;
+
+        text-align: center;
+        width: 350px;
+        height: 250px;
+        font-size: 15px;
+        left :-0px ;
+        top : -10px;
+    }
+    #fcc-img{ 
+        animation: fadeInFromTop 0.6s ease-out;
+        align-items: center;
+        width: 90%;
+        height : 90%;
+        top : -20px ;
+        left: 30px ; 
+    }
+}
+ 
+body{
+   
+    background-image: url('https://c1.wallpaperflare.com/preview/311/34/429/colleague-unsplash-team-group-work.jpg');
+}
+
+#filter { 
+    background-color:#0a0a23;
+    position: fixed;
+    padding: 850px;
+    opacity: 0.7;
+    margin-top: -150px;
+}
+
+#survey-form #form {
+    background-color: #0a0a23;
+    color: black;
+    height: 100%px;
+    overflow: scroll;
+    width: 85%;
+
+    border-radius : 15px;  
+}
+#section-1 { 
+    border-radius: 15px;
+    background-color:#1b1b32;
+    color : white ;
+    padding : 15px;
+    width : 90%;
+    top :15px; 
+    height : auto;
+    overflow: auto;
+}
+
+
+#section-1 input { 
+    background-color: #dfdfe2;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width : 300px;
+    margin: -5px;
+    top: -15px;
+    right: -100px;
+}
+
+#section-1 label { 
+    font-family: 'Roboto Mono';
+    padding: 10px;
+
+}
+#section-1 input::placeholder{
+    padding-left: 15px;
+}
+
+#section-1 #age{ 
+    width: 19%;
+}
+
+
+  
+  #form {
+    animation: fadeInFromRight 0.6s ease-out;
+  }
+
+@media (400px <= width <= 600px){
+    #form{ 
+        animation: fadeInFrombottom 0.6s ease-out;
+
+        border-radius: 15px;
+        padding-right: 270px;
+        margin-left: -345px;
+        margin-top: 150px;
+    }
+    #section-1 { 
+        width: 465px;
+        left: 18px;
+    }
+    #section-1 input {
+        width: 70%;
+    }
+}
+
+
+
+[type="radio"]{
+    width : 30px;
+}
+
+[type="checkbox"]{ 
+    width: 30px;
+    right: 5px;
+    margin-bottom: 15px;
+}
+ul { 
+    list-style: none;
+    right: -0px;
+}
+
+
+
+#dropdown{ 
+    background-color: #dfdfe2;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    width : 20%;
+    margin: -5px;
+}
+#section-2{ 
+    border-radius: 15px;
+    background-color:#1b1b32;
+    color : white ;
+    padding : 15px;
+    width : 90%;
+    top : 30px;
+    overflow: auto;
+}
+
+@media (400px <= width <= 600px) { 
+    #section-2  {
+        width: 456px;
+        left: 1px; 
+    }
+}
+
+
+#section-3 { 
+   
+    border-radius: 15px;
+    background-color: #1b1b32;
+
+    color :white;
+    top : 45px; 
+    width:95%;
+ 
+
+
+    height: auto;
+
+}
+
+#section-3 p { 
+    padding : 10px;
+    top : 5px; 
+}
+
+#section-3 #text { 
+    margin-top:15px;
+    margin-bottom: 15px; 
+  
+    right: 0px;
+    border: none;
+    width :100%;
+    padding: 30px;
+    padding-left: 21px;
+    padding-right: 0px;
+    height: 45%;
+    border-radius: 15px;
+}
+#section-3 #submit { 
+    width: 30%;
+    height: 7%;
+    margin-bottom: 13px;
+    padding: 10px;
+    border-radius: 30px;
+    border:none;
+    right:-200px;
+}
+
+@media (400px <= width <= 600px) { 
+    #section-3 { 
+        width: 493px;
+        left: 20px;
+    }
+    #section-3 #text{
+        right : -1px; 
+        width: 92%;
+    }
+    #section-3 #submit { 
+        right:-180px;
+    }
+}
+
+
+footer div { 
+    display: flex;
+    justify-content:center;
+    background-color: #f5f6f7;
+    height: 1%;
+    background:#f5f6f7;
+}
+ 
+footer div i  { 
+    background-color: transparent;
+    height: 5%;
+    width: 30px;
+    margin : 15px;   
+}
+footer p {
+    top: 80px;
+    height: 20%;
+    text-align: center; 
+    color: #8e8e8e;
+    background-color: #ffffff;
+}
+
+  
+footer{
+    top:-1px;
+    display: flex;
+    height: 25%;
+    flex-direction:column;
+    background-color: #f5f6f7;
+}
+
+@media (300px <= width <= 600px){ 
+    footer { 
+        top:900px;
+    }
+}
+@media (300px<= height <=600px){ 
+
+    footer p { 
+        width: auto;
+        top: 50px;
+    }
+}

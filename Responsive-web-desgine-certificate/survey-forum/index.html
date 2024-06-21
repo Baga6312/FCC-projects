@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    
+    <style>
+     
+    </style>
+<div id="filter"></div>
+<form id="survey-form">
+
+    <section id="background">
+
+    </section>
+    <div >
+        <img id="fcc-img" src="https://d33wubrfki0l68.cloudfront.net/52edd2dfddbec5db22a65dba39951af8fa9bdff6/006f7/img/fcc_primary_large.svg">
+        <h1 id="title" class="Survey">Survey Form</h1>
+    </div>
+
+    <section id="form">
+        <div id="section-1">
+            <p id="description">Thank you for taking the time to help us improse the platform</p><br>
+            <div class="container">
+                <span><label id="name-label">Name</label><input type="text" id="name"  required placeholder="insert your name her "></span>
+                <span><label id="email-label">Email</label><input type="email" id="email" required placeholder="insert your email her "></span>
+                <span><label id="number-label">Age</label><input type="number" id="number" min="5" max="100" id="number" required placeholder="age her "></span>
+            </div>
+       
+        </div>
+        <div id="section-2">
+            <p>Which option best describes your current role? </p><br>
+            <select id="dropdown">    
+                <option value="volvo" selected>Student</option>
+                <option value="saab">Saab</option>
+                <option value="vw">VW</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <div id="radio-buttons"><br>
+                <label><input name="R1" id="radio-1" type="radio" value="def">Definitely</label>
+                <label><input name="R1" id="radio-2" type="radio" value="may">Maybe</label>
+                <label><input name="R1" id="radio-3" type="radio" value="no">Not Sure</label>
+            </div><br>
+            <div id="improved">
+                <p>What would you like to see improved? (Check all that apply)</p><br>
+                <div id="radio-button ">
+                <ul>
+                    <li><label for="one">   <input value="1"  id="one"  type="checkbox">Front-End projects</label></li>
+                    <li><label for="two">   <input value="2" id="two" type="checkbox">Back-End projects</label></li>
+                    <li><label for="three"> <input value="3" id="three" type="checkbox">Data Visualisation</label></li>
+                    <li><label for="four">  <input value="4" id="four" type="checkbox">Gitter help rooms</label></li>
+                    <li><label for="five">  <input value="5" id="five" type="checkbox">City Meetups</label></li>
+                    <li><label for="seven"> <input value="6" id="seven" type="checkbox">Additional Courses</label></li>
+                    <li><label for="eight"> <input value="7" id="eight" type="checkbox">Wiki</label></li>
+                    <li><label for="nine">  <input value="8" id="nine" type="checkbox">Forums</label></li>
+                    <li><label for="ten">   <input value="9" id="ten" type="checkbox">Challanges</label></li>
+                    <li><label for="twelve"><input value="10" id="twelve" type="checkbox">Additional Courses</label></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div id="section-3">
+            <p>Any comments or suggestions?
+                <textarea name="" id="text" cols="30" rows="10"></textarea>
+                <button id="submit">Submit</button>
+            </p>
+        </div>
+      
+    </section>
+</form>
+
+    <footer  id="footer">
+        <div id="social-media">
+            <i class="fa fa-facebook-official fa-2x"></i>
+            <i class="fa fa-instagram fa-2x"></i>
+            <i class="fa fa-linkedin-square fa-2x"></i>
+            <i class="fa fa-github fa-2x"></i>
+        </div>
+
+        <style>
+            p{
+                font-family: Roboto mono;
+            }
+        </style>
+        <p>2023 Copyright: Oussema Ben Ayech </p>
+    </footer>
+  
+   
+</body>
+
+</html>

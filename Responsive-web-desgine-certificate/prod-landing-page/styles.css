@@ -1,0 +1,130 @@
+html { 
+    scroll-behavior:  smooth ;
+    font-family: Arial, Helvetica, sans-serif ; 
+}
+*{ 
+    margin: auto;
+}
+/*** header ***/ 
+#header { 
+    top : 0 ; 
+    width : 100% ; 
+    height: 20px;
+    justify-content: space-between;
+    align-items: center ;
+    position:relative;
+    justify-content: center;
+    opacity: 0.8 ;
+    display: inline;
+}
+
+#nav-bar {
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
+
+#header-img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+} 
+
+h1{ 
+    text-align: center ;
+}
+
+li { 
+    padding : 15px;
+    margin: 10px; 
+
+}
+li:hover{ 
+    display: inline-block;
+    transition: background-color .2s ease-in-out;
+    padding : 15px ;
+    margin : 10px; 
+    background-color:rgb(109, 109, 109);
+    border-radius: 10px;
+}
+
+ul{ 
+    height: 50px;
+    align-items: center;
+    justify-content: space-between  ;
+    border-radius: 15px;
+    display: flex;
+    padding : 10px ;
+    background-color: #fff;
+    list-style-type: none;
+  
+}
+.nav-link { 
+    text-decoration:none;
+    color: black;
+}
+
+
+/* body */ 
+body{ 
+    width: 550px;
+    background-color: rgb(34, 33, 63);
+
+}
+
+
+
+#video { 
+    display:block ;
+    margin : 0 auto ; 
+    background-color: #d1d1d1;
+    border-radius: 15px;
+    height: 380px;
+    width: 550px;
+    box-sizing: border-box;
+}
+
+#aboutme {
+    display:grid;
+    text-align: center;
+    position: relative; 
+    padding-bottom: 15px;
+}
+
+input { 
+    list-style-type:none ;
+    border-style: none;
+    border-radius: 80px; 
+    margin-bottom : 10px ;  
+    padding: 15px;
+}
+
+#form {  
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+footer {
+    margin : auto ;
+    margin-bottom: 25px; 
+    margin-top: 5px;
+    padding-top: 15px; 
+    display:block;
+    text-align: center;
+    width: 50%;
+    border-radius: 15px;
+    background-color: grey;
+}
+
+#submit:hover { 
+    background-color: rgb(189, 75, 75);
+    outline: solid rgb(66, 65, 65);
+    transition:  outline .1s ease-in-out ,  background-color .2s ease-in-out;
+
+}
+@media (max-width: 500px) { 
+    body { 
+        flex-wrap : wrap ; 
+    }
+}
